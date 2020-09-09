@@ -1,0 +1,211 @@
+.post-details
+{
+    background: #F4F5FF;
+    height: 621px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* position: relative; */
+    grid-gap: 160px;
+}
+
+.post-title-details
+{
+/*  position: absolute; */
+height: 225px;
+margin-left: 165px;
+margin-top: 196px;
+}
+.post-category
+{
+font-family: 'Lato';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #6670FD;
+}
+
+.post-title
+{
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 110%;
+/* or 40px */
+
+
+color: #141633;
+}
+
+.post-author
+{
+    display: flex;
+    align-items: center;
+
+}
+.post-author-image
+{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.post-author-name
+{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 19px;
+    margin-right: 14px;
+    
+    color: #141633;
+}
+
+.post-date
+{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 18px;
+    
+    color: #141633;
+}
+
+.post-author-social
+{
+    margin-left: auto;
+    align-self: center;
+}
+
+.post-author-social-image
+{
+    margin-left: 25.46px;
+}
+
+.post-image
+{
+    /* position: absolute; */
+    background: #0A1930;
+    border-radius: 10px;
+    height: 225px;
+    margin-right: 230px;
+    margin-top: 196px;
+}
+
+.post-content
+{
+    margin-left: 165px;
+    margin-right: 165px;
+    background: #FFFFFF;
+    /* height: 2108px; */
+    border: 1px solid #E3E5FC;
+    box-sizing: border-box;
+    transform:translate(0px,-100px);
+    padding-top: 50px;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-bottom: 50px;
+}
+
+.sub-heading
+{
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 110%;
+/* or 26px */
+
+
+color: #141633;
+}
+
+.post-paragraphs
+{
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+
+color: rgba(20, 22, 51, 0.5);
+}
+
+.recommended-posts
+{
+    background: #F4F5FF;
+}
+.recommended-posts-title
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 110%;
+/* identical to box height, or 40px */
+
+text-align: center;
+
+color: #141633;
+}
+
+.recommended-posts-cards
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    margin-left: 253px;
+    margin-right: 253px;
+}
+
+.recommended-post-image
+{
+    height: 260px;
+    background: #E3E5FC;
+border-radius: 10px 10px 0px 0px;
+}
+
+.recommended-post-details
+{
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.recommended-post-category
+{
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #6670FD;
+}
+
+.recommended-post-title
+{
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 110%;
+/* or 31px */
+
+
+color: #141633;
+}
