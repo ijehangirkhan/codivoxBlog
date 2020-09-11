@@ -25,6 +25,11 @@
         padding-right: 30px !important;
     }
 
+    .post-title
+    {
+        font-size: 36px !important;
+    }
+
     .post-image
     {
         margin-right: auto !important;
@@ -75,7 +80,8 @@ color: #6670FD;
 font-family: 'Josefin Sans', sans-serif;
 font-style: normal;
 font-weight: 600;
-font-size: 36px;
+font-size: 2.63vw;
+/* font-size: 36px; */
 line-height: 110%;
 /* or 40px */
 
